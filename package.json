@@ -1,0 +1,22 @@
+{
+  "name": "@sbspk/stonks",
+  "version": "1.0.0",
+  "main": "src/stonks.js",
+  "type": "module",
+  "bin": {
+    "stonks": "src/cli.js"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Subash/stonks.git"
+  },
+  "author": "Subash Pathak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Subash/stonks/issues"
+  },
+  "homepage": "https://github.com/Subash/stonks#readme"
+}
