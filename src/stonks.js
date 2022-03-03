@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 import http from "node:http";
 
 function tickerToId(ticker) {
