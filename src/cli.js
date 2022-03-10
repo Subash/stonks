@@ -18,5 +18,6 @@ try {
 
   console.log(await stonks({ date, ticker }));
 } catch (err) {
+  process.exitCode = 1;
   console.error(err.message);
 }
